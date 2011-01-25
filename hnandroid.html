@@ -1,14 +1,16 @@
 <html>
   <head>
-    <title>Hacker New for Android - Beta Test</title>
+    <title>Hacker New for Android</title>
   </head>
   <body>
-    <h1>Hacker News for Android - Beta Test</h1>
+    <h1>Hacker News for Android</h1>
     <p/>
-    Install with QR Code:<br/>
-    <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://utility.jazzychad.net/HackerNews.apk&choe=UTF-8" />
+    Android Market QR Code:<br/>
+    <img src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chld=L|0&chl=http://market.android.com/details%3Fid%3Dcom.jazzychad.hn%26referrer%3Dutm_source%253Detc%2526utm_medium%253Dpage%2526utm_term%253Dhn%2526utm_content%253Dhn%2526utm_campaign%253Dhn" style="padding:15px;"/>
     <p/>
-    Or, <a href="http://utility.jazzychad.net/HackerNews.apk">Download the .apk directly</a>.
+    Or, <a href="http://market.android.com/details?id=com.jazzychad.hn&referrer=utm_source%3Detc%26utm_medium%3Dpage%26utm_term%3Dhn%26utm_content%3Dhn%26utm_campaign%3Dhn">Open in Android Market directly</a> (link only works on android devices).
+    <p/>
+    Hacker News is a full-featured (free!) Android client for the Hacker News website (news.ycombinator.com) - view the top stories, new submissions, and Ask HN posts. Login with your account to up/downvote and comment directly within the app. View articles in the browser or text-only on viewtext.org.
     <p/>
     Please send feedback to: chad at jazzychad daught net
     <p/>
@@ -28,6 +30,26 @@
     <img src="img/android/hn/ss5.png" /> <br/>
     Post replies to stories and comments
     <p/>
+    <script type="text/javascript">
+      var mp_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+      document.write(unescape("%3Cscript src='" + mp_protocol + "api.mixpanel.com/site_media/js/api/mixpanel.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+      var mpmetrics = new MixpanelLib("e2d370fe2a2ea0db1efa8b262d2f8ab3");
+      } catch(err) {
+      var null_fn = function () {};
+      var mpmetrics = { 
+      track: null_fn, 
+      track_funnel: null_fn, 
+      register: null_fn, 
+      register_once: null_fn,
+      register_funnel: null_fn,
+      identify: null_fn
+      };
+      }
+      mpmetrics.track("Land");
+    </script>
   </body>
 </html>
 
